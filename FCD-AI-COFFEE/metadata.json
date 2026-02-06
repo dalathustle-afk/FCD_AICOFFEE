@@ -1,0 +1,7 @@
+{
+  "name": "Copy of CoffeeQuality AI - Hệ Thống Phân Loại Cà Phê",
+  "description": "Ứng dụng phân loại và phát hiện lỗi hạt cà phê sử dụng trí tuệ nhân tạo Gemini, giúp đánh giá chất lượng hạt nhanh chóng và chính xác.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
