@@ -6,7 +6,7 @@ const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
 export async function analyzeCoffeeImage(base64Image: string, retryCount = 0): Promise<AnalysisResult> {
   const MAX_RETRIES = 3;
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey: "AIzaSyDuoat_-ZtMLp-_PzJolGZuxSi2-yuiEHc" });
   const model = "gemini-3-flash-preview"; 
 
   const prompt = `
